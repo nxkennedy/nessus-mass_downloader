@@ -1,8 +1,5 @@
-# Oolong
+# Nessus Mass Report Downloader
 
-![Secure Tea Centuar logo](../../img/SecureTeaCentaur.png)
-
-### Oolong is the report downloading component of Secure Tea Centaur
 
 <table>
     <tr>
@@ -21,7 +18,7 @@
 
 ** BASED ON THE NESSUS 6 REPORT DOWNLOADER by Travis Lee **
 <br>
-Oolong is a Point and Shoot script that connects to specified Nessus servers via REST API to automate mass report downloads.
+This is a point-and-shoot script that connects to specified Nessus servers via REST API to automate mass report downloads.
 
 ### Use Case
 
@@ -42,12 +39,12 @@ If running the exe, neither ruby nor additional libraries need to be installed b
 
 ### Usage
 
-1. git clone https://github.com/nxkennedy/secure-tea-centaur.git
+1. git clone https://github.com/nxkennedy/nessus-mass_downloader.git
 2. cd to wherever your downloaded it
 3. update the nessus server list in 'config/config.json.example' and rename the file to 'config.json'
 4. the script doesn't require args. In a terminal:
 
-    `ruby oolong-stc.rb`
+    `ruby nessus-mass_downloader.rb`
 
     `OPTIONS:`
 
