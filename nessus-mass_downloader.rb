@@ -261,7 +261,7 @@ USAGE = <<ENDUSAGE
 
 [+] No args required!
 [+] Usage:
-		ruby #{__FILE__}
+		ruby nessus-mass_downloader.rb
 
 -h, --help  	prints usage to terminal
 -v, --verbose	prints verbose output to terminal
