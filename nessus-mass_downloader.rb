@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 #################################################################################################
-# Name: Oolong Report Downloader (part of Secure Tea Centaur)
+# Name: Nessus Mass Report Downloader 
 # Author: Nolan Kennedy (nxkennedy)
 # ** BASED ON THE NESSUS 6 REPORT DOWNLOADER by Travis Lee **
 #
@@ -9,7 +9,7 @@
 #	 	reports for all scans in .nessus, .csv, and .pdf formats and saves them to a local
 #		folder.
 #
-# Usage: ruby ./nessus-mass_downloader.rb
+# Usage: ruby nessus-mass_downloader.rb
 #
 # Reference: https://<nessus-server>:8834/api
 #
